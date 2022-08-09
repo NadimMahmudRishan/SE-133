@@ -1,0 +1,16 @@
+//Name : Nadim Mahmud Rishan
+//ID   : 221-35-952
+//Calculate the factorial of given number
+#include<stdio.h>
+int main()
+{
+    int i, fact = 1, number;
+    printf("Enter the number : ");
+    scanf("%d", &number);
+    for (i = 1; i <= number; i++)
+    {
+        fact = fact * i;
+    }
+    printf("Factorial of %d is :b %d", number, fact);
+    return 0;
+}
